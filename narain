@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="C:\Users\urk23cs5039\Desktop\rotract\na.css">
+</head>
+<body>
+    <header>
+        <h1>MY PORTFOLIO</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="profile-photo"> <!-- New Profile Photo Section -->
+            <img src="C:\Users\urk23cs5039\Desktop\rotract\th.jpg" alt="Profile Photo" style="width:200px;height:auto;border-radius:50%;">
+        </div>
+        <p>
+            <h3>WELCOME TO MY PORTFOLIO! 
+            Hello, I'm NARAIN SIDDARTH R, a second-year student majoring in Computer Science at Karunya University, and I'm thrilled to be on this academic journey. After graduating from Stanes High School with a passion for technology and problem-solving, I decided to pursue Computer Science to deepen my understanding of software development and programming. I'm also eager to gain practical experience through internships and collaborate with peers on innovative projects. My goal is to become a software developer and contribute to impactful tech solutions.</h3>
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, Java, C++</li>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+            <li>Data Analysis: Pandas, NumPy</li>
+            <li>UI/UX Design: Figma, Adobe XD</li>
+            <li>Version Control: Git, GitHub</li>
+            <li>Soft Skills: Teamwork, Communication, Problem-Solving</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>EcoLife</h3>
+            <p>A web application designed to help users track and reduce their carbon footprint. It includes features like a carbon calculator, eco-friendly tips, and a community forum.</p>
+        </div>
+        <div class="project">
+            <h3>UI/UX Design for a Mobile App</h3>
+            <p>A user interface and user experience design project for a mobile application. It focuses on creating an intuitive and visually appealing interface for users.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:your.email@example.com">narainsiddarth@karunya.edu</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+</body>
+</html>
